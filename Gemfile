@@ -20,6 +20,7 @@ group :development, :test do
   gem 'byebug'
   gem 'pry-byebug'
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do
@@ -28,3 +29,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 
+group :test do
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+end
